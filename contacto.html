@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+		<nav>
+			<ul>
+				<li><a href="http://localhost/taronges/main.html">Inicio</a></li>
+				<li><a href="http://localhost/taronges/acercade.html">Acerca de</a></li>
+				<li><a href="http://localhost/taronges/servicios.html">Servicios</a></li>
+				<li><a href="http://localhost/taronges/productos.html">Productos</a></li>
+				<li><a href="http://localhost/taronges/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Contacto</h1>
+			<p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros. Puedes utilizar el formulario de contacto a continuación o comunicarte con nosotros a través de correo electrónico o teléfono.</p>
+			<form action="enviar.php" method="POST">
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" id="nombre" required>
+
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" name="correo" id="correo" required>
+
+				<label for="mensaje">Mensaje:</label>
+				<textarea name="mensaje" id="mensaje" required></textarea>
+
+				<input type="submit" value="Enviar">
+			</form>
+			<p>También puedes comunicarte con nosotros directamente:</p>
+			<ul>
+				<li>Correo electrónico: info@ejemplo.com</li>
+				<li>Teléfono: 555-123-4567</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>

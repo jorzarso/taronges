@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  a {
+    color: #ff8c00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #FFDAB9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    margin-top: 80px;
+    padding: 30px;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  section h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  section p {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffaf4b;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  
+    main {
+      margin-top: 60px;
+    }
+  }
+  img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: auto;
+  }
+
+  ul li{
+    color: #ffaf4b;
+  }
+
+  button:not(nav button), a:not(nav a) {
+    color: white;
+  }
+  
+
+
+  
+  
